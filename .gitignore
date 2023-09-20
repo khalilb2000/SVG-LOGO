@@ -1,5 +1,5 @@
 # which files to ignore
-
+#dist/
 .DS_store
 .node_modules
 .READEME.md

@@ -1,5 +1,7 @@
-const {Circle,Triangle,Square} = require("./shapes")
-const filesystem = require("./node_modules/graceful-fs/graceful-fs")
+const {Circle,Triangle,Square} = require("./lib/shapes")
+const filesystem = require("graceful-fs/graceful-fs")
+
+
 
 class SVG{
     constructor(){
@@ -19,6 +21,7 @@ class SVG{
     }
 
 }
+
 
 const question = [
 
@@ -48,6 +51,4 @@ message: "TEXT: Please enter up to (3) charaters:",
 
 
     }
-
-
 ];
