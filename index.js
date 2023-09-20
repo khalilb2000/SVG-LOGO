@@ -1,4 +1,3 @@
-const filesystem = require('./node_modules/graceful-fs/graceful-fs')
 const inquirer = require("inquirer");
 const {Circle , Square, Triangle} = require("./lib/shapes");
 
@@ -23,33 +22,32 @@ class SVG{
 
 }
 
-
-const question = [
-
+const questions = [
     {
-type: "input",
-name: "text",
-message: "TEXT: Please enter up to (3) charaters:",
-
-    },
-
-    {
-        type:"input",
-        name:"text-color",
-        message: "TEXT-COLOR: Please enter a color keyword (OR hexadecimal number):"
-    },
-
-    {
-        type:"input",
-        name:"shape",
-        message: "SHAPE COLOR : Please enter a color keyword (OR hexadecimal number):"
-    },
-    {
-        type:"list",
-        name:"pixel-img",
-        message:"Which image will you choose?",
-        choices: ["Circle" ,"Triangle","Square"],
-
-
-    }
+        type: "input",
+        name: "text",
+        message: "TEXT: Please enter up to (3) charaters:",
+        
+            },
+        
+            {
+                type:"input",
+                name:"text-color",
+                message: "TEXT-COLOR: Please enter a color keyword (OR hexadecimal number):"
+            },
+        
+            {
+                type:"input",
+                name:"shape",
+                message: "SHAPE COLOR : Please enter a color keyword (OR hexadecimal number):"
+            },
+            {
+                type:"list",
+                name:"pixel-img",
+                message:"Which image will you choose?",
+                choices: ["Circle" ,"Triangle","Square"],
+        
+        
+            },
 ];
+
