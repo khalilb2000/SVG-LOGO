@@ -1,0 +1,5 @@
+# which files to ignore
+
+.DS_store
+.node_modules
+.READEME.md
