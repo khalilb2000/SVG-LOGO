@@ -1,4 +1,3 @@
-const inquirer = require("inquirer");
 const {Circle,Triangle,Square} = require("./shapes")
 const sysytemfile = require("./node_modules")
 
@@ -39,19 +38,16 @@ message: "TEXT: Please enter up to (3) charaters:",
     {
         type:"input",
         name:"shape",
-        messgae: "SHAPE COLOR : Please enter a color keyword (OR hexadecimal number):"
+        message: "SHAPE COLOR : Please enter a color keyword (OR hexadecimal number):"
     },
     {
         type:"list",
-        name:"pixel-img"
-        
+        name:"pixel-img",
+        message:"Which image will you choose?",
+        choices: ["Circle" ,"Triangle","Square"],
+
+
     }
 
 
-
-
-
-
-
-
-]
+];
