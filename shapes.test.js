@@ -27,11 +27,9 @@ describe('Square', () => {
 describe('Triangle', () => {
     test('renders correctly', () => {
         const triangle = new Triangle();
-        var color =('white')
+        var color = 'white';
         triangle.setColor(color);
-        expect(triangle.render()).toEqual(`<polygon height =  "100%" width =  "100%" points = "0,200,300,200,150,0" fill="${color}"/>
-        `)
-
-
+        expect(triangle.render()).toEqual(`<polygon points="150,50 100,150 200,150\" fill=\"white\"/>`);
     });
 });
+

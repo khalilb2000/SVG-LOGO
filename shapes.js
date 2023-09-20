@@ -1,4 +1,4 @@
-
+const inquirer = require("inquirer");
 
 class Shape{
  constructor(){
@@ -25,7 +25,7 @@ class Square extends Shape{
 
 class Triangle extends Shape{
     render(){
-        return `<polygon height =  "100%" width =  "100%" points = "0,200,300,200,150,0" fill="${this.color}"/>`
+        return `<polygon points="150,50 100,150 200,150\" fill=\"white\"/>`
     }
 };
 
