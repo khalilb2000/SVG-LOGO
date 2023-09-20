@@ -51,3 +51,8 @@ const questions = [
             },
 ];
 
+inquirer.prompt(questions).then((answers) => {
+    // Handle user's answers here
+    console.log(answers); // Example: Log the answers to the console
+  });
+  
