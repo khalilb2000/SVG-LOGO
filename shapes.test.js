@@ -1,4 +1,6 @@
 const { Square, Circle, Triangle} = require("./shapes")
+const SVG = require('./svg');
+
 
 //Circle
 describe('Circle', () => {
