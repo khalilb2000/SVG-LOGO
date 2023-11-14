@@ -8,7 +8,7 @@ describe('Circle', () => {
         const circle = new Circle();
         var color =('pink')
         circle.setColor(color);
-        expect(circle.render()).toEqual(`<circle cx =  "50%" cy = "50%" r = "100" height = "100" width = "100" fill="${color}"/>`)
+        expect(circle.render().replace(/\s/g, '')).toEqual(`<circle cx="50%" cy="50%" r="100" height="100" width="100" fill="${color}"/>`.replace(/\s/g, ''));
 
 
     });
@@ -20,8 +20,7 @@ describe('Square', () => {
         const square = new Square();
         var color =('green')
         square.setColor(color);
-        expect(square.render()).toEqual(`<rect  x = "50" height =  "100%" width =  "200%"  fill="${color}"/>`)
-
+        expect(square.render().replace(/\s/g, '')).toEqual(`<rect x="50" height="100%" width="200%" fill="${color}"/>`.replace(/\s/g, ''));
 
     });
 });

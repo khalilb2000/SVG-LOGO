@@ -30,10 +30,14 @@
   "inquirer": "^8.2.4",
   
     
-  "jest": "^29.7.0",
+  "node.js": "^0.0.1-security"
+  
+  },
+  
+  "devDependencies": {
   
     
-  "node.js": "^0.0.1-security"
+  "jest": "^29.7.0"
   
   }
 }
