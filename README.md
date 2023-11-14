@@ -1,71 +1,61 @@
-# SVG-LOGOSVG Logo Generator
-The SVG Logo Generator is a command-line tool that allows you to create SVG logos with customizable text and shapes. You can choose from different shapes like circles, triangles, and squares, and customize their colors and text content.
+# Description
 
-Features
-Create SVG logos with text and shapes.
-Choose from three different shapes: Circle, Triangle, and Square.
-Customize text content, text color, and shape color.
-Generate SVG files for your logos.
-Installation
-To use the SVG Logo Generator, follow these steps:
+The Awesome Quiz is a dynamic web application built using HTML, CSS, and JavaScript. It presents a set of coding-related questions and challenges players to answer them within a time limit.
 
-Clone the repository to your local machine:
+## Features
 
-bash
-Copy code
-git clone https://github.com/yourusername/svg-logo.git
-Change into the project directory:
+- Interactive quiz with multiple-choice questions
+- Dynamic scoring and timer
+- Local storage to save high scores
+- Sleek and modern UI design
 
-bash
-Copy code
-cd svg-logo
-Install the required dependencies:
+## Usage
 
-bash
-Copy code
-npm install
-Usage
-To generate an SVG logo, run the following command:
+To use the Awesome Quiz, follow these steps:
 
-bash
-Copy code
-node index.js
-Follow the prompts to enter the desired text and color options. You can select the shape you want for your logo (Circle, Triangle, or Square) and customize the text content, text color, and shape color.
+1. Clone or download the repository to your local machine.
+2. Open the index.html file in a web browser.
 
-The generated SVG logo will be saved as logo.svg in the project directory.
+## Installation
 
-Examples
-Here are some examples of how to use the SVG Logo Generator:
+No special installation is required. Simply open the index.html file in a web browser.
 
-Create a logo with the text "My Logo" in white with a red circle:
+## How to Play
 
-bash
-Copy code
-node index.js
-Select the following options:
+1. Click the "Start Quiz" button to begin.
+2. Answer each question within the time limit.
+3. Click "Next" to proceed to the next question.
+4. After completing the quiz, enter your initials to save your score.
 
-Text: My Logo
-Text Color: white
-Shape Color: red
-Choose Circle as the shape
-Create a logo with the text "Company" in black with a green square:
+## Scoring
 
-bash
-Copy code
-node index.js
-Select the following options:
+- Each correct answer earns points.
+- The final score is displayed at the end of the quiz.
+- A grade is assigned based on the score.
 
-Text: Company
-Text Color: black
-Shape Color: green
-Choose Square as the shape
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
+## High Scores
 
-Contributing
-If you'd like to contribute to this project, please follow our contributing guidelines.
+The application saves high scores locally using browser storage. To view high scores:
 
-Authors
-Your Name
-Acknowledgments
-Thanks to Inquirer.js for the interactive command-line prompts.
+1. Complete the quiz.
+2. Enter your initials when prompted.
+3. Click the "Next" button to see the high scores.
+
+## Video Demonstration
+
+[![Watch the video](link_to_your_thumbnail_image)](link_to_your_video)
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript
+
+## Contributing
+
+Contributions are welcome! If you'd like to enhance the quiz or fix any issues, please fork the repository and submit a pull request.
+
+## License
+
+This project is licensed under the MIT License.
+
