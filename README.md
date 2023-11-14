@@ -43,7 +43,7 @@ The application saves high scores locally using browser storage. To view high sc
 
 ## Video Demonstration
 
-[![Watch the video](link_to_your_thumbnail_image)](link_to_your_video)
+[![Watch the video](link_to_your_thumbnail_image)](5F065879-E8CD-499B-9298-BCBD21EDC096_1_102_o.jpeg)
 
 ## Technologies Used
 
@@ -58,4 +58,5 @@ Contributions are welcome! If you'd like to enhance the quiz or fix any issues, 
 ## License
 
 This project is licensed under the MIT License.
+
 
